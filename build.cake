@@ -65,6 +65,10 @@ Task("Publish")
 
 							DotNetCorePublish(File, publishSettings);
 						}
+						else
+						{
+							"No Files"
+						}
 					}
 			}
 	}
