@@ -12,12 +12,11 @@ using Newtonsoft.Json;
 using System.IO;
 
 
-string FilePath = @"C:\Users\vaishnavn\source\repos\FilePath.txt";
+string FilePath = "FilePath.txt";
 var target= Argument("Argument","Default");
 var BuildNumber = ArgumentOrEnvironmentVariable("build.number", "", "0.0.1-local.0");
 var buildoutputpath= "D:/Output_build/" ;
 var octopkgpath= "D:/OctoPackages/";
-var packageId = "api_1";
 var sourcepath="Calc_SampleApp.sln";
 var octopusApiKey=ArgumentOrEnvironmentVariable("OctopusDeployApiKey","");
 string BranchName = null;
