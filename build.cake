@@ -1,3 +1,4 @@
+#tool "nuget:?package=GitVersion.CommandLine&Version=4.0.0"
 #tool "nuget:?package=OctopusTools&Version=6.7.0"
 #tool "nuget:?package=GitVersion.CommandLine&Version=4.0.0"
 #addin "nuget:?package=Cake.ArgumentHelpers"
