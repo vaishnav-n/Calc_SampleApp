@@ -1,7 +1,7 @@
+#addin "nuget:?package=Cake.ArgumentHelpers"
 #tool "nuget:?package=GitVersion.CommandLine&Version=4.0.0"
 #tool "nuget:?package=OctopusTools&Version=6.7.0"
 #tool "nuget:?package=GitVersion.CommandLine&Version=4.0.0"
-#addin "nuget:?package=Cake.ArgumentHelpers"
 #addin "Cake.Npm"&version=0.8.0
 #addin nuget:?package=Cake.SemVer
 #addin nuget:?package=semver&version=2.0.4
